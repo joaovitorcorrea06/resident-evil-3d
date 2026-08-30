@@ -1,0 +1,43 @@
+export const STORY_SECTIONS = [
+  {
+    id: 'chapter-1996',
+    eyebrow: '1996',
+    title: 'The nightmare begins.',
+    body: [
+      'A mansion.',
+      'A missing team.',
+      'Something waiting inside.',
+    ],
+    align: 'left',
+    start: 0.16,
+    end: 0.28,
+  },
+  {
+    id: 'chapter-survival',
+    eyebrow: 'Survival Horror',
+    title: 'Limited resources.',
+    body: ['Limited ammunition.', 'No way out.'],
+    align: 'right',
+    start: 0.34,
+    end: 0.5,
+  },
+  {
+    id: 'chapter-zombie',
+    eyebrow: 'The First Encounter',
+    title: 'You are not alone.',
+    body: ['The room gets quiet before it gets worse.'],
+    align: 'left',
+    start: 0.58,
+    end: 0.74,
+  },
+  {
+    id: 'chapter-final',
+    eyebrow: "Don't Turn Around.",
+    title: 'Resident Evil',
+    body: ['Enter the mansion'],
+    align: 'center',
+    start: 0.82,
+    end: 0.98,
+    isFinal: true,
+  },
+];
